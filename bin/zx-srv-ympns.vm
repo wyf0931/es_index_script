@@ -1,0 +1,139 @@
+{
+    "aliases": { }, 
+    "mappings": {
+        "unregister": {
+            "properties": {
+                "bizAction": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "bizType": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "deviceId": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "error": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "osVersion": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "platform": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "request_time": {
+                    "type": "date", 
+                    "format": "dateOptionalTime"
+                }, 
+                "resultCode": {
+                    "type": "long"
+                }, 
+                "serverIp": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "uid": {
+                    "type": "long"
+                }
+            }
+        }, 
+        "push": {
+            "properties": {
+                "bizAction": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "bizType": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "error": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "from": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "mid": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "osVersion": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "platform": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "request_time": {
+                    "type": "date", 
+                    "format": "dateOptionalTime"
+                }, 
+                "resultCode": {
+                    "type": "long"
+                }, 
+                "serverIp": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "to": {
+                    "type": "long"
+                }, 
+                "uid": {
+                    "type": "long"
+                }, 
+                "version": {
+                    "type": "long"
+                }
+            }
+        }, 
+        "register": {
+            "properties": {
+                "bizAction": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "bizType": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "deviceId": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "osVersion": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "platform": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "request_time": {
+                    "type": "date", 
+                    "format": "dateOptionalTime"
+                }, 
+                "resultCode": {
+                    "type": "long"
+                }, 
+                "serverIp": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "uid": {
+                    "type": "long"
+                }
+            }
+        }
+    }, 
+    "settings": $settings,
+    "warmers": { }
+}

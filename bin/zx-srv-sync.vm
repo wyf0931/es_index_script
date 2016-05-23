@@ -1,0 +1,147 @@
+{
+    "aliases": { }, 
+    "mappings": {
+        "sync": {
+            "properties": {
+                "bizAction": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "bizType": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "clientIp": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "clientNetwork": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "company": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "deviceName": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "errorMsg": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "osVersion": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "platform": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "request_time": {
+                    "type": "date", 
+                    "format": "dateOptionalTime"
+                }, 
+                "resultCode": {
+                    "type": "long"
+                }, 
+                "serverIp": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "syncKeys": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "uid": {
+                    "type": "long"
+                }, 
+                "versionCode": {
+                    "type": "long"
+                }, 
+                "versionName": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }
+            }
+        }, 
+        "syncData": {
+            "properties": {
+                "bizAction": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "bizType": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "clientFromVersion": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "clientIp": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "clientNetwork": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "company": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "continueFlag": {
+                    "type": "long"
+                }, 
+                "cost": {
+                    "type": "long"
+                }, 
+                "deviceName": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "needUpdateVersion": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "osVersion": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "platform": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "request_time": {
+                    "type": "date", 
+                    "format": "dateOptionalTime"
+                }, 
+                "resultCode": {
+                    "type": "long"
+                }, 
+                "serverIp": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "serverToVersion": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "uid": {
+                    "type": "long"
+                }, 
+                "versionCode": {
+                    "type": "long"
+                }, 
+                "versionName": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }
+            }
+        }
+    }, 
+    "settings": $settings,
+    "warmers": { }
+}

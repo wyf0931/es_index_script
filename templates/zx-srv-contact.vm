@@ -1,0 +1,158 @@
+{
+    "aliases": { }, 
+    "mappings": {
+        "contacts": {
+            "properties": {
+                "bizAction": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "bizType": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "clientIp": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "clientNetwork": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "continueFlag": {
+                    "type": "long"
+                }, 
+                "deviceName": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "errorMsg": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "index": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "manufacturer": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "md5Phone": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "nextIndex": {
+                    "type": "long"
+                }, 
+                "osVersion": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "phone": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "platform": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "request_time": {
+                    "type": "date", 
+                    "format": "dateOptionalTime"
+                }, 
+                "resultCode": {
+                    "type": "long"
+                }, 
+                "serverIp": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "uid": {
+                    "type": "long"
+                }, 
+                "versionCode": {
+                    "type": "long"
+                }, 
+                "versionName": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }
+            }
+        }, 
+        "upload": {
+            "properties": {
+                "bizAction": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "bizType": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "clientIp": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "clientNetwork": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "deviceName": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "diffFlag": {
+                    "type": "long"
+                }, 
+                "errorMsg": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "fmd5Phone": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "manufacturer": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "md5Phone": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "osVersion": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "platform": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "request_time": {
+                    "type": "date", 
+                    "format": "dateOptionalTime"
+                }, 
+                "resultCode": {
+                    "type": "long"
+                }, 
+                "serverIp": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }, 
+                "uid": {
+                    "type": "long"
+                }, 
+                "versionCode": {
+                    "type": "long"
+                }, 
+                "versionName": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }
+            }
+        }
+    }, 
+    "settings": $settings,
+    "warmers": { }
+}
